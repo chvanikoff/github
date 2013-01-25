@@ -1,0 +1,9 @@
+{application,github,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{github_app,[]}},
+              {env,[]},
+              {modules,[github,github_activity,github_app,github_srv,
+                        github_sup]}]}.
